@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.wrapper-1 {
+  background-image: url("./images/bg-1 (1).jpg");
+  height: 100vh;
+}
+
+.my-navbar {
+  padding: 0px;
+  opacity: 0.8;
+}
+
+.my-navbar .active a{
+  border: 2px solid #4bcaff;
+  color: #4bcaff !important;
+}
+
+.my-navbar ul li {
+  margin-right: 10px;
+}
+
+.my-navbar ul li a {
+  padding: 2px 15px;
+
+}
+
+.navbar-toggler-icon {
+  background: #ffffff;
+  border: 1px dotted #57606f;
+  opacity: 0.8;
+  box-shadow: 1px 1px 5px white;
+}
+
+.my-wr1-title {
+  padding-top:500px;
+}
+.my-logo {
+  font-size: 2rem;
+}
+
+.my-wr1-title span {
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.my-wr1-title span.my-cap-2 {
+  top: 100%;
+}
+
+.wrapper-3 {
+  background: #dff9fb;
+}
+
+.wrapper-4 {
+  background: #57606f;
+}
+
+.wrapper-6 {
+  background-image: url("./images/bg-6.png");
+  background-position: center;
+  height: 50vh;
+}
+
+.wrapper-8 {
+  background-image: url("./images/bg.jpg");
+  background-position: center;
+  height: 70vh;
+}
+
+.wrapper-8 input {
+  background: none;
+  height: 50px;
+  color: white;
+}
+
+.wrapper-8 input:hover {
+  background: none;
+  color: white;
+}
+
+.wrapper-8 input:focus {
+  background: none;
+  color: white;
+}
+
+.wrapper-8  textarea {
+  width: 100%;
+  background: none !important;
+  color: white;
+}
+
+.wrapper-8  textarea:hover {
+  background: none;
+  color: white;
+}
+
+.wrapper-8  textarea:focus {
+  background: none;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper-6 {
+    height: 100vh;
+  }
+
+  .wrapper-8 {
+    height: 90vh;
+  }
+
+  .my-wr1-title span {
+    font-size: 1rem;
+  }
+}
+
+.wrapper-9 {
+  background: #576574;
+}
