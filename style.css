@@ -43,25 +43,20 @@
   box-shadow: 1px 1px 5px white;
 }
 
-.my-wr1-title {
-  padding-top:500px;
-}
 .my-logo {
   font-size: 2rem;
+}
+
+.my-wr1-title {
+  padding-top:500px;
+  text-align: center;
 }
 
 .my-wr1-title span {
   background: rgba(0, 0, 0, 0.6);
   font-size: 2rem;
-  position: absolute;
-  left: 50%;
-  top: 90%;
-  transform: translate(-50%, -50%);
 }
 
-.my-wr1-title span.my-cap-2 {
-  top: 100%;
-}
 
 .wrapper-3 {
   background: #dff9fb;
@@ -125,7 +120,7 @@
   }
 
   .my-wr1-title span {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
