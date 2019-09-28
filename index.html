@@ -22,7 +22,7 @@
                 <div class="col-md-12 col-sm-12 no-padding">
                     <nav class="navbar navbar-expand-lg navbar-light my-navbar bg-dark py-3">
                         <div class="container">
-                            <a class="navbar-brand font-weight-bolder text-uppercase text-white my-logo" href="#">trung<span class="text-info">d</span>ev</a>
+                            <span class="navbar-brand font-weight-bolder text-uppercase text-white my-logo" href="#">trung<span class="text-info">d</span>ev</span>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -33,16 +33,16 @@
                                         <a class="nav-link text-white font-weight-bolder font-weight-bolder" href="#">Home <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-white font-weight-bolder font-weight-bolder" href="#">Service</a>
+                                        <a class="nav-link text-white font-weight-bolder font-weight-bolder" href="#anchor-1">Service</a>
                                     </li>  
                                     <li class="nav-item">
-                                        <a class="nav-link text-white font-weight-bolder font-weight-bolder" href="#">About</a>
+                                        <a class="nav-link text-white font-weight-bolder font-weight-bolder" href="#anchor-2">About</a>
                                     </li> 
                                     <li class="nav-item">
-                                        <a class="nav-link text-white font-weight-bolder font-weight-bolder" href="#">Product</a>
+                                        <a class="nav-link text-white font-weight-bolder font-weight-bolder" href="#anchor-3">Product</a>
                                     </li> 
                                     <li class="nav-item">
-                                        <a class="nav-link text-white font-weight-bolder font-weight-bolder" href="#">Contact</a>
+                                        <a class="nav-link text-white font-weight-bolder font-weight-bolder" href="#anchor-4">Contact</a>
                                     </li> 
                                 </ul>
                             </div>
@@ -55,15 +55,19 @@
             <div class="row no-margin">
                 <div class="col-md-1"></div>
                 <div class="col-md-10 col-sm-12 my-wr1-title">
-                    <span class="text-uppercase text-center text-white">"I am locking for the unexpected"</span>
-                    <div class="my-4"></div>
-                    <span class="text-uppercase text-center text-white my-cap-2">"I'm locking for things i've never seen before"</span>
+                    <div>
+                        <span class="text-uppercase text-center text-white p-2">"I am locking for the unexpected"</span>
+                    </div>
+                    <div class="my-2"></div>
+                    <div>
+                        <span class="text-uppercase text-center text-white p-2">"I'm locking for things i've never seen before"</span>
+                    </div>
                 </div>
                 <div class="col-md-1"></div>
             </div>
         </div>
 
-        <div class="wrapper-2 py-5 bg-info text-white">
+        <div  id="anchor-1" class="wrapper-2 py-5 bg-info text-white">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
@@ -167,7 +171,7 @@
             </div>
         </div>
 
-        <div class="wrapper-4 py-5">
+        <div id="anchor-2" class="wrapper-4 py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-12">
@@ -210,11 +214,11 @@
             </div>
         </div>
 
-        <div class="wrapper-6 py-5 bg-danger">
+        <div id="anchor-3" class="wrapper-6 py-5 bg-danger">
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-md-12 col-sm-12">
-                        <h1 class="text-uppercase text-white">who are you ?</h1>
+                        <h1 class="text-uppercase text-white my-wr-title">who are you ?</h1>
                     </div>
                     <div class="col-md-6 col-ms-6">
                         <p class="pt-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus laboriosam, amet aperiam repudiandae error adipisci id quam? Magnam voluptate ducimus rerum reiciendis soluta quia?</p>
@@ -267,11 +271,11 @@
             </div>
         </div>
 
-        <div class="wrapper-8 py-5 bg-success">
+        <div id="anchor-4" class="wrapper-8 py-5 bg-success">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-12 py-5">
-                        <h1 class="text-uppercase text-white">Contact</h1>
+                        <h1 class="text-uppercase text-white my-wr-title">Contact</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -293,7 +297,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-12 py-5 mb-5">
+                    <div class="col-md-12 col-sm-12 col-12 py-3 ">
                         <div class="form-group">
                             <textarea id="my-textarea" class="form-control" rows="7"></textarea>
                         </div>
@@ -321,8 +325,11 @@
             </div>
         </div>
 
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="./script.js"></script>
     </body>
 </html>
